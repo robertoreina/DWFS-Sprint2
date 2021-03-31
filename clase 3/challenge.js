@@ -7,5 +7,7 @@ for (let indexFor = 1; indexFor <= 10; indexFor++) {
 let indexWhile = 1;
 while (indexWhile <= 10){
     console.log('Iteracion While ' + indexWhile);
+    indexWhile++;
+    indexWhile = indexWhile + 1;
     indexWhile += 1;
 }
