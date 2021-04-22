@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+
+header{
+    background-color: darkblue;
+    height: 150px;
+    width: 100vw;
+    color: white;
+    order: 1;
+}
+
+main{
+    width: 85%;
+    background-color: lightgrey;
+    order: 3;
+    height: 100vh;
+}
+
+aside{
+    background-color: lightslategrey;
+    width: 15%;
+    order: 2;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: darkblue;
+    order: 4;
+}
+
+#listaArticulos{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+
+    li{
+       width: 200px;
+       height: 200px;
+        
+        background-color: darkslategray;
+    }
+}
+

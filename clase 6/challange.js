@@ -8,5 +8,5 @@ let promedio = numeros =>{
     return resultado/arreglo.length;
 }
 
-Error('esto es un error')
+let mensaje = new c;
 console.log('El promedio es: ' + promedio(arreglo));
