@@ -1,0 +1,29 @@
+*{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* body{
+    /* overflow: hidden; */
+/* } */ 
+
+p{
+    width: 200px;
+}
+
+/* img{
+    width: 695px;
+    height: 385px;
+} */
+
+.gifo-max-mobile{
+    width: 100vw;   
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
