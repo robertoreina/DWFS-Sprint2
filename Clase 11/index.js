@@ -31,14 +31,14 @@ window.onload = () => {
 
     // let lista = document.getElementById("lista");
 
-    fetch('https://api.giphy.com/v1/trending/searches?api_key=lrnG9FoHoVNeYhrRPSGA1MtbbERL9qZL 2')
+    fetch('https://api.giphy.com/v1/trending/searches?api_key=lrnG9FoHoVNeYhrRPSGA1MtbbERL9qZL')
         .then((response) => {
             if (response.ok) {
             
                 console.log(response.status, response.ok, response.statusText, response.message);
                 return response.json()
             } else {
-                console.log(response.status, response.ok, response.statusText, response.message);
+                console.log(response.status, response.ok, response.statusText);
             }
 
         }).then(
