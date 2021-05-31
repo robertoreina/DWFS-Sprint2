@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+    
+li{ 
+    width: 250px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px 20px;
+}   
+
+li:hover{
+    box-shadow: 3px 3px 3px darkgray;
+    transform:translateY(5PX)
+}
+
+
+li>img{
+    max-height: 90%;
+}
+
+li>p{
+    font-size: 10px;
+    vertical-align: middle;
+}
